@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>FreeClimb API</title>
+
+	<link rel="icon" href="favicon.ico" type="image/png" />
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/themes/green-white.css">
+
+	<style>
+		.mdl-button {
+			text-transform: none;
+		}
+		main {
+			background-color: rgba(0,51,63,0);
+			background-image: url(./bg-hero_home.jpg);
+			background-position: center center;
+			background-repeat: no-repeat;
+			padding-top: 140px;
+			padding-right: 30px;
+			padding-bottom: 80px;
+			padding-left: 30px;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<div class="intro">FreeClimb Labs</div>
+		<div class="tagline"></div>
+		<!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
+		<div class="icons-social">
+			<a target="_blank" href="https://github.com/freeclimbapi"><i class="fab fa-github"></i></a>
+			<a target="_blank" href="https://twitter.com/freeclimbapi"><i class="fab fa-twitter"></i></a>
+			<a target="_blank" href="https://dev.to/freeclimbapi"><i class="fab fa-dev"></i></a>
+			<a target="_blank" href="https://stackoverflow.com/story/freeclimbapi"><i class="fab fa-stack-overflow"></i></a>
+			<a target="_blank" href="https://www.freecodecamp.org"><i class="fab fa-free-code-camp"></i></a>
+			<a target="_blank" href="https://codepen.io"><i class="fab fa-codepen"></i></a>
+		</div>
+		<div class="card-container">
+			<div class="demo-card-square mdl-card mdl-shadow--2dp">
+					<div class="mdl-card__title -card--expand">
+						<h2 class="mdl-card__title-text">SDKs</h2>
+					</div>
+					<div class="mdl-card__supporting-text">
+						FreeClimb SDK Libraries
+					</div>
+					<div class="mdl-card__actions mdl-card--border">
+						<ul class="mdl-list">
+							<li class="mdl-list__item">
+								<span class="mdl-list__item-primary-content">
+									<i class="material-icons mdl-list__item-avatar">code</i>
+									<span><h6><a class="mdl-button mdl-js-button" href="https://github.com/FreeClimbAPI/java-sdk">Java</a></h6></span>
+								</span>
+								<span class="mdl-list__item-secondary-content">
+									<a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+								</span>
+							</li>
+							<li class="mdl-list__item">
+								<span class="mdl-list__item-primary-content">
+									<i class="material-icons mdl-list__item-avatar">code</i>
+									<span><h6><a class="mdl-button mdl-js-button" href="https://github.com/FreeClimbAPI/javascript-sdk">Node JS</a></h6></span>
+								</span>
+								<span class="mdl-list__item-secondary-content">
+									<a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+								</span>
+							</li>
+							<li class="mdl-list__item">
+								<span class="mdl-list__item-primary-content">
+									<i class="material-icons mdl-list__item-avatar">code</i>
+									<span><h6><a class="mdl-button mdl-js-button" href="https://github.com/FreeClimbAPI/csharp-sdk">C#</a></h6></span>
+								</span>
+								<span class="mdl-list__item-secondary-content">
+									<a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="demo-card-square mdl-card mdl-shadow--2dp">
+					<div class="mdl-card__title mdl-card--expand">
+						<h2 class="mdl-card__title-text">Tutorials</h2>
+					</div>
+					<div class="mdl-card__supporting-text">
+						Working code examples that mirror our <a href="https://docs.freeclimb.com/reference">tutorials</a>.
+					</div>
+					<div class="mdl-card__actions mdl-card--border">
+						<ul class="demo-list-three mdl-list" id="tutorialList">
+						</ul>
+					</div>
+				</div>
+				<div class="demo-card-square mdl-card mdl-shadow--2dp">
+					<div class="mdl-card__title mdl-card--expand">
+						<h2 class="mdl-card__title-text">Examples</h2>
+					</div>
+					<div class="mdl-card__supporting-text">
+						Coming Soon!
+					</div>
+					<div class="mdl-card__actions mdl-card--border">
+						<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+						</a>
+					</div>
+				</div>
+		</div>
+	</main>
+	<script>
+		window.fc = new Object()
+
+		let fc = window.fc;
+		fc.tutorialNames = ["Send-Message-Tutorial", 
+		"Accept-Call-Tutorial", "Collect-Digits-Tutorial-", "List-Recordings-Tutorial", "Get-Queue-Tutorial-", 
+		"List-Queues-Tutorial", "Make-Queue-Tutorial", "Inbound-Call-Queue-Tutorial", "List-Calls-Tutorial", 
+		"Delete-Recording-Tutorial", "List-Conferences-Tutorial", "List-Conference-Participants-Tutorial", 
+		"Connect-Caller", "Stream-Recording-Tutorial", "Speech-Recognition-Tutorial"];
+
+		let tutorialList = '';
+
+		fc.tutorialNames.map((n) => {
+			tutorialList += `
+				<li class="mdl-list__item">
+					<span class="mdl-list__item-primary-content">
+						<i class="material-icons mdl-list__item-avatar">code</i>
+						<span>${n.split('-').join(' ').split('Tutorial').join(' ')}</span>
+					</span>
+					<span class="mdl-list__item-secondary-content">
+						<button class="mdl-button mdl-js-button mdl-button--primary" onclick="location.href = 'https://github.com/FreeClimbAPI/Java-${n}';">
+							Java
+						</button>	
+						<button class="mdl-button mdl-js-button mdl-button--primary" onclick="location.href = 'https://github.com/FreeClimbAPI/Node-${n}';">
+							Node
+						</button>	
+					</span>
+				</li>
+			`;
+		});
+		/*
+
+		*/
+
+		document.getElementById('tutorialList').innerHTML = tutorialList;
+	</script>
+</body>
+</html>

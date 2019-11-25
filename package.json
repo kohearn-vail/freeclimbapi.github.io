@@ -1,0 +1,8 @@
+{
+  "name": "freeclimbapi.github.io",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "git@github.com:FreeClimbAPI/freeclimbapi.github.io.git",
+  "author": "Wa-jiw Casey <wcasey@vailsys.com>",
+  "license": "MIT"
+}
