@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Namespace: api</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Namespace: api</h1>
+
+    
+
+
+
+
+<section>
+
+<header>
+    
+        <h2>
+            <span class="ancestors"><a href="module-freeclimb-sdk_api.html">freeclimb-sdk/api</a>~</span>api</h2>
+        
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+        
+
+        
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+
+<table class="props">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>accounts</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">module:freeclimb-sdk/api/accounts</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">The Accounts module</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>applications</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="module-freeclimb-sdk_api_applications.html">module:freeclimb-sdk/api/applications</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">The Applications module</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>availableNumbers</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">module:freeclimb-sdk/api/availableNumbers</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">The Available Numbers module</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>incomingNumbers</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="module-freeclimb-sdk_api_incomingNumbers.html">module:freeclimb-sdk/api/incomingNumbers</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">the Incoming Numbers module</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>callingNumbers</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="module-freeclimb-sdk_api_callingNumbers.html">module:freeclimb-sdk/api/callingNumbers</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">the Calling Numbers module</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>calls</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">module:freeclimb-sdk/api/calls</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">the Calls module</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>conferences</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="module-freeclimb-sdk_api_conferences.html">module:freeclimb-sdk/api/conferences</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">the Conferences module</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>queues</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="module-freeclimb-sdk_api_queues.html">module:freeclimb-sdk/api/queues</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">the Queues module</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>logs</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="module-freeclimb-sdk_api_logs.html">module:freeclimb-sdk/api/logs</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">the Logs module</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>recordings</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="module-freeclimb-sdk_api_recordings.html">module:freeclimb-sdk/api/recordings</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">the Recordings module</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="api_api.js.html">api/api.js</a>, <a href="api_api.js.html#line16">line 16</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-freeclimb-sdk.html">freeclimb-sdk</a></li><li><a href="module-freeclimb-sdk_api.html">freeclimb-sdk/api</a></li><li><a href="module-freeclimb-sdk_api_applications.html">freeclimb-sdk/api/applications</a></li><li><a href="module-freeclimb-sdk_api_availablePhoneNumbers.html">freeclimb-sdk/api/availablePhoneNumbers</a></li><li><a href="module-freeclimb-sdk_api_callingNumbers.html">freeclimb-sdk/api/callingNumbers</a></li><li><a href="module-freeclimb-sdk_api_conferences.html">freeclimb-sdk/api/conferences</a></li><li><a href="module-freeclimb-sdk_api_conferences_participants.html">freeclimb-sdk/api/conferences/participants</a></li><li><a href="module-freeclimb-sdk_api_incomingNumbers.html">freeclimb-sdk/api/incomingNumbers</a></li><li><a href="module-freeclimb-sdk_api_logs.html">freeclimb-sdk/api/logs</a></li><li><a href="module-freeclimb-sdk_api_messages.html">freeclimb-sdk/api/messages</a></li><li><a href="module-freeclimb-sdk_api_queues.html">freeclimb-sdk/api/queues</a></li><li><a href="module-freeclimb-sdk_api_queues_members.html">freeclimb-sdk/api/queues/members</a></li><li><a href="module-freeclimb-sdk_api_recordings.html">freeclimb-sdk/api/recordings</a></li><li><a href="module-freeclimb-sdk_enums.html">freeclimb-sdk/enums</a></li><li><a href="module-freeclimb-sdk_enums_.html">freeclimb-sdk/enums/</a></li><li><a href="module-freeclimb-sdk_enums_accountStatus.html">freeclimb-sdk/enums/accountStatus</a></li><li><a href="module-freeclimb-sdk_enums_answeredBy.html">freeclimb-sdk/enums/answeredBy</a></li><li><a href="module-freeclimb-sdk_enums_callDirection.html">freeclimb-sdk/enums/callDirection</a></li><li><a href="module-freeclimb-sdk_enums_callStatus.html">freeclimb-sdk/enums/callStatus</a></li><li><a href="module-freeclimb-sdk_enums_conferenceStatus.html">freeclimb-sdk/enums/conferenceStatus</a></li><li><a href="module-freeclimb-sdk_enums_getDigitsReason.html">freeclimb-sdk/enums/getDigitsReason</a></li><li><a href="module-freeclimb-sdk_enums_getSpeechReason.html">freeclimb-sdk/enums/getSpeechReason</a></li><li><a href="module-freeclimb-sdk_enums_grammarType.html">freeclimb-sdk/enums/grammarType</a></li><li><a href="module-freeclimb-sdk_enums_ifMachine.html">freeclimb-sdk/enums/ifMachine</a></li><li><a href="module-freeclimb-sdk_enums_language.html">freeclimb-sdk/enums/language</a></li><li><a href="module-freeclimb-sdk_enums_logLevel.html">freeclimb-sdk/enums/logLevel</a></li><li><a href="module-freeclimb-sdk_enums_machineType.html">freeclimb-sdk/enums/machineType</a></li><li><a href="module-freeclimb-sdk_enums_messageDirection.html">freeclimb-sdk/enums/messageDirection</a></li><li><a href="module-freeclimb-sdk_enums_messageStatus.html">freeclimb-sdk/enums/messageStatus</a></li><li><a href="module-freeclimb-sdk_enums_playBeep.html">freeclimb-sdk/enums/playBeep</a></li><li><a href="module-freeclimb-sdk_enums_queueResult.html">freeclimb-sdk/enums/queueResult</a></li><li><a href="module-freeclimb-sdk_enums_recordUtteranceTermReason.html">freeclimb-sdk/enums/recordUtteranceTermReason</a></li><li><a href="module-freeclimb-sdk_enums_requestType.html">freeclimb-sdk/enums/requestType</a></li><li><a href="module-freeclimb-sdk_percl.html">freeclimb-sdk/percl</a></li></ul><h3>Namespaces</h3><ul><li><a href="accounts.update.html">update</a></li><li><a href="api.accounts.html">accounts</a></li><li><a href="module-freeclimb-sdk_api.html#~api">api</a></li></ul><h3>Global</h3><ul><li><a href="global.html#base64Encode">base64Encode</a></li><li><a href="global.html#calls">calls</a></li><li><a href="global.html#commonDeleteBuilder">commonDeleteBuilder</a></li><li><a href="global.html#commonGetBuilder">commonGetBuilder</a></li><li><a href="global.html#commonPostBuilder">commonPostBuilder</a></li><li><a href="global.html#DELETE">DELETE</a></li><li><a href="global.html#fcURL">fcURL</a></li><li><a href="global.html#get">get</a></li><li><a href="global.html#GET">GET</a></li><li><a href="global.html#POST">POST</a></li><li><a href="global.html#setPersyUrl">setPersyUrl</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.3</a> on Mon Nov 25 2019 12:00:46 GMT-0600 (Central Standard Time)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>
