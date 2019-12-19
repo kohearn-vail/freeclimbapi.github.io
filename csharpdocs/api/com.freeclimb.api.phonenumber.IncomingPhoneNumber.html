@@ -1,0 +1,854 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class IncomingPhoneNumber
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class IncomingPhoneNumber
+   ">
+    <meta name="generator" content="docfx 2.45.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber">
+  
+  
+  <h1 id="com_freeclimb_api_phonenumber_IncomingPhoneNumber" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber" class="text-break">Class IncomingPhoneNumber
+  </h1>
+  <div class="markdown level0 summary"><p>This class represents a FreeClimb IncomingPhoneNumber instance. IncomingPhoneNumber objects
+can be created by the IncomingPhoneNumberRequester inside a FreeClimbClient instance, or using the portal's
+Buy a Number functionality.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="com.freeclimb.api.FreeClimbCommon.html">FreeClimbCommon</a></div>
+    <div class="level2"><span class="xref">IncomingPhoneNumber</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="com.freeclimb.api.IFreeClimbCommon.html">IFreeClimbCommon</a></div>
+    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="com.freeclimb.api.FreeClimbCommon.html">FreeClimbCommon</a>&gt;</div>
+    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="com.freeclimb.api.phonenumber.IncomingPhoneNumber.html">IncomingPhoneNumber</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="com.freeclimb.api.FreeClimbCommon.html#com_freeclimb_api_FreeClimbCommon_getUri">FreeClimbCommon.getUri</a>
+    </div>
+    <div>
+      <a class="xref" href="com.freeclimb.api.FreeClimbCommon.html#com_freeclimb_api_FreeClimbCommon_getDateCreated">FreeClimbCommon.getDateCreated</a>
+    </div>
+    <div>
+      <a class="xref" href="com.freeclimb.api.FreeClimbCommon.html#com_freeclimb_api_FreeClimbCommon_getDateUpdated">FreeClimbCommon.getDateUpdated</a>
+    </div>
+    <div>
+      <a class="xref" href="com.freeclimb.api.FreeClimbCommon.html#com_freeclimb_api_FreeClimbCommon_getRevision">FreeClimbCommon.getRevision</a>
+    </div>
+    <div>
+      <a class="xref" href="com.freeclimb.api.FreeClimbCommon.html#com_freeclimb_api_FreeClimbCommon_Equal_com_freeclimb_api_FreeClimbCommon_com_freeclimb_api_FreeClimbCommon_">FreeClimbCommon.Equal(FreeClimbCommon, FreeClimbCommon)</a>
+    </div>
+    <div>
+      <a class="xref" href="com.freeclimb.api.FreeClimbCommon.html#com_freeclimb_api_FreeClimbCommon_Equals_com_freeclimb_api_FreeClimbCommon_">FreeClimbCommon.Equals(FreeClimbCommon)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="com.freeclimb.api.phonenumber.html">com.freeclimb.api.phonenumber</a></h6>
+  <h6><strong>Assembly</strong>: freeclimb-cs-sdk.dll</h6>
+  <h5 id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class IncomingPhoneNumber : FreeClimbCommon, IFreeClimbCommon, IEquatable&lt;FreeClimbCommon&gt;, IEquatable&lt;IncomingPhoneNumber&gt;</code></pre>
+  </div>
+  <h5 id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>IncomingPhoneNumbers are immutable and intended only to be used to read information
+returned from the API in a language accessible way.</p>
+</div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_phonenumber_IncomingPhoneNumber_getAccountId.md&amp;value=---%0Auid%3A%20com.freeclimb.api.phonenumber.IncomingPhoneNumber.getAccountId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/phonenumber/IncomingPhoneNumber.cs/#L104">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_getAccountId_" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.getAccountId*"></a>
+  <h4 id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_getAccountId" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.getAccountId">getAccountId</h4>
+  <div class="markdown level1 summary"><p>Retrieve  the accountId for this incomingPhoneNumber from the object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string getAccountId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The accountId for this incomingPhoneNumber.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_phonenumber_IncomingPhoneNumber_getAlias.md&amp;value=---%0Auid%3A%20com.freeclimb.api.phonenumber.IncomingPhoneNumber.getAlias%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/phonenumber/IncomingPhoneNumber.cs/#L94">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_getAlias_" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.getAlias*"></a>
+  <h4 id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_getAlias" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.getAlias">getAlias</h4>
+  <div class="markdown level1 summary"><p>Retrieve  the alias for this incomingPhoneNumber from the object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string getAlias { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The alias for this incomingPhoneNumber.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_phonenumber_IncomingPhoneNumber_getApplicationId.md&amp;value=---%0Auid%3A%20com.freeclimb.api.phonenumber.IncomingPhoneNumber.getApplicationId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/phonenumber/IncomingPhoneNumber.cs/#L99">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_getApplicationId_" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.getApplicationId*"></a>
+  <h4 id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_getApplicationId" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.getApplicationId">getApplicationId</h4>
+  <div class="markdown level1 summary"><p>Retrieve  the applicationId for this incomingPhoneNumber from the object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string getApplicationId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The applicationId for this incomingPhoneNumber.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_phonenumber_IncomingPhoneNumber_getCountry.md&amp;value=---%0Auid%3A%20com.freeclimb.api.phonenumber.IncomingPhoneNumber.getCountry%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/phonenumber/IncomingPhoneNumber.cs/#L125">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_getCountry_" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.getCountry*"></a>
+  <h4 id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_getCountry" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.getCountry">getCountry</h4>
+  <div class="markdown level1 summary"><p>Retrieve  the country for this incomingPhoneNumber from the object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string getCountry { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The country for this incomingPhoneNumber.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_phonenumber_IncomingPhoneNumber_getPhoneNumber.md&amp;value=---%0Auid%3A%20com.freeclimb.api.phonenumber.IncomingPhoneNumber.getPhoneNumber%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/phonenumber/IncomingPhoneNumber.cs/#L115">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_getPhoneNumber_" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.getPhoneNumber*"></a>
+  <h4 id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_getPhoneNumber" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.getPhoneNumber">getPhoneNumber</h4>
+  <div class="markdown level1 summary"><p>Retrieve  the phoneNumber for this incomingPhoneNumber from the object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string getPhoneNumber { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The phoneNumber for this incomingPhoneNumber.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_phonenumber_IncomingPhoneNumber_getPhoneNumberId.md&amp;value=---%0Auid%3A%20com.freeclimb.api.phonenumber.IncomingPhoneNumber.getPhoneNumberId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/phonenumber/IncomingPhoneNumber.cs/#L109">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_getPhoneNumberId_" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.getPhoneNumberId*"></a>
+  <h4 id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_getPhoneNumberId" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.getPhoneNumberId">getPhoneNumberId</h4>
+  <div class="markdown level1 summary"><p>Retrieve  the phoneNumberId for this incomingPhoneNumber from the object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string getPhoneNumberId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The phoneNumberId for this incomingPhoneNumber.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_phonenumber_IncomingPhoneNumber_getRegion.md&amp;value=---%0Auid%3A%20com.freeclimb.api.phonenumber.IncomingPhoneNumber.getRegion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/phonenumber/IncomingPhoneNumber.cs/#L120">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_getRegion_" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.getRegion*"></a>
+  <h4 id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_getRegion" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.getRegion">getRegion</h4>
+  <div class="markdown level1 summary"><p>Retrieve  the region for this incomingPhoneNumber from the object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string getRegion { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The region for this incomingPhoneNumber.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_phonenumber_IncomingPhoneNumber_getSmsEnabled.md&amp;value=---%0Auid%3A%20com.freeclimb.api.phonenumber.IncomingPhoneNumber.getSmsEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/phonenumber/IncomingPhoneNumber.cs/#L135">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_getSmsEnabled_" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.getSmsEnabled*"></a>
+  <h4 id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_getSmsEnabled" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.getSmsEnabled">getSmsEnabled</h4>
+  <div class="markdown level1 summary"><p>Retrieve  the smsEnabled for this incomingPhoneNumber from the object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool getSmsEnabled { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The smsEnabled for this incomingPhoneNumber.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_phonenumber_IncomingPhoneNumber_getVoiceEnabled.md&amp;value=---%0Auid%3A%20com.freeclimb.api.phonenumber.IncomingPhoneNumber.getVoiceEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/phonenumber/IncomingPhoneNumber.cs/#L130">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_getVoiceEnabled_" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.getVoiceEnabled*"></a>
+  <h4 id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_getVoiceEnabled" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.getVoiceEnabled">getVoiceEnabled</h4>
+  <div class="markdown level1 summary"><p>Retrieve  the voiceEnabled for this incomingPhoneNumber from the object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool getVoiceEnabled { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The voiceEnabled for this incomingPhoneNumber.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_phonenumber_IncomingPhoneNumber_Equal_com_freeclimb_api_phonenumber_IncomingPhoneNumber_com_freeclimb_api_phonenumber_IncomingPhoneNumber_.md&amp;value=---%0Auid%3A%20com.freeclimb.api.phonenumber.IncomingPhoneNumber.Equal(com.freeclimb.api.phonenumber.IncomingPhoneNumber%2Ccom.freeclimb.api.phonenumber.IncomingPhoneNumber)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/phonenumber/IncomingPhoneNumber.cs/#L210">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_Equal_" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.Equal*"></a>
+  <h4 id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_Equal_com_freeclimb_api_phonenumber_IncomingPhoneNumber_com_freeclimb_api_phonenumber_IncomingPhoneNumber_" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.Equal(com.freeclimb.api.phonenumber.IncomingPhoneNumber,com.freeclimb.api.phonenumber.IncomingPhoneNumber)">Equal(IncomingPhoneNumber, IncomingPhoneNumber)</h4>
+  <div class="markdown level1 summary"><p>Helper method to deep compare two IncomingPhoneNumber instances.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Equal(IncomingPhoneNumber a, IncomingPhoneNumber b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.phonenumber.IncomingPhoneNumber.html">IncomingPhoneNumber</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>IncomingPhoneNumber instance one.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.phonenumber.IncomingPhoneNumber.html">IncomingPhoneNumber</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>IncomingPhoneNumber instance two.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True is a == b, otherwise false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_phonenumber_IncomingPhoneNumber_Equals_com_freeclimb_api_phonenumber_IncomingPhoneNumber_.md&amp;value=---%0Auid%3A%20com.freeclimb.api.phonenumber.IncomingPhoneNumber.Equals(com.freeclimb.api.phonenumber.IncomingPhoneNumber)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/phonenumber/IncomingPhoneNumber.cs/#L242">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_Equals_" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.Equals*"></a>
+  <h4 id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_Equals_com_freeclimb_api_phonenumber_IncomingPhoneNumber_" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.Equals(com.freeclimb.api.phonenumber.IncomingPhoneNumber)">Equals(IncomingPhoneNumber)</h4>
+  <div class="markdown level1 summary"><p>Compares the current instance with another object of the same type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(IncomingPhoneNumber other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.phonenumber.IncomingPhoneNumber.html">IncomingPhoneNumber</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>IncomingPhoneNumber object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true if the current object is equal to the other parameter; otherwise, false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_phonenumber_IncomingPhoneNumber_Equals_System_Object_.md&amp;value=---%0Auid%3A%20com.freeclimb.api.phonenumber.IncomingPhoneNumber.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/phonenumber/IncomingPhoneNumber.cs/#L166">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_Equals_" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.Equals*"></a>
+  <h4 id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_Equals_System_Object_" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Compares the current instance with another object of the same type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>Object of type IncomingPhoneNumber.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true if the current object is equal to the other parameter; otherwise, false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="com.freeclimb.api.FreeClimbCommon.html#com_freeclimb_api_FreeClimbCommon_Equals_System_Object_">FreeClimbCommon.Equals(Object)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_phonenumber_IncomingPhoneNumber_fromJson_System_String_.md&amp;value=---%0Auid%3A%20com.freeclimb.api.phonenumber.IncomingPhoneNumber.fromJson(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/phonenumber/IncomingPhoneNumber.cs/#L78">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_fromJson_" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.fromJson*"></a>
+  <h4 id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_fromJson_System_String_" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.fromJson(System.String)">fromJson(String)</h4>
+  <div class="markdown level1 summary"><p>Helper method to build an IncomingPhoneNumber object from the JSON string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IncomingPhoneNumber fromJson(string rawJson)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">rawJson</span></td>
+        <td><p>A JSON string representing an incomingPhoneNumber instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.phonenumber.IncomingPhoneNumber.html">IncomingPhoneNumber</a></td>
+        <td><p>An IncomingPhoneNumber object equivalent to the JSON string passed in.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.FreeClimbJSONException.html">FreeClimbJSONException</a></td>
+        <td><p>Thrown upon deserialize failure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_phonenumber_IncomingPhoneNumber_GetHashCode.md&amp;value=---%0Auid%3A%20com.freeclimb.api.phonenumber.IncomingPhoneNumber.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/phonenumber/IncomingPhoneNumber.cs/#L142">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_GetHashCode_" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.GetHashCode*"></a>
+  <h4 id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_GetHashCode" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Serves as the default hash function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>A hash code for the current object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="com.freeclimb.api.FreeClimbCommon.html#com_freeclimb_api_FreeClimbCommon_GetHashCode">FreeClimbCommon.GetHashCode()</a></div>
+  <h3 id="operators">Operators
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_phonenumber_IncomingPhoneNumber_op_Equality_com_freeclimb_api_phonenumber_IncomingPhoneNumber_com_freeclimb_api_phonenumber_IncomingPhoneNumber_.md&amp;value=---%0Auid%3A%20com.freeclimb.api.phonenumber.IncomingPhoneNumber.op_Equality(com.freeclimb.api.phonenumber.IncomingPhoneNumber%2Ccom.freeclimb.api.phonenumber.IncomingPhoneNumber)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/phonenumber/IncomingPhoneNumber.cs/#L188">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_op_Equality_" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.op_Equality*"></a>
+  <h4 id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_op_Equality_com_freeclimb_api_phonenumber_IncomingPhoneNumber_com_freeclimb_api_phonenumber_IncomingPhoneNumber_" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.op_Equality(com.freeclimb.api.phonenumber.IncomingPhoneNumber,com.freeclimb.api.phonenumber.IncomingPhoneNumber)">Equality(IncomingPhoneNumber, IncomingPhoneNumber)</h4>
+  <div class="markdown level1 summary"><p>IncomingPhoneNumber equality operator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(IncomingPhoneNumber a, IncomingPhoneNumber b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.phonenumber.IncomingPhoneNumber.html">IncomingPhoneNumber</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>IncomingPhoneNumber object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.phonenumber.IncomingPhoneNumber.html">IncomingPhoneNumber</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>IncomingPhoneNumber object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true if equal otherwise false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_phonenumber_IncomingPhoneNumber_op_Inequality_com_freeclimb_api_phonenumber_IncomingPhoneNumber_com_freeclimb_api_phonenumber_IncomingPhoneNumber_.md&amp;value=---%0Auid%3A%20com.freeclimb.api.phonenumber.IncomingPhoneNumber.op_Inequality(com.freeclimb.api.phonenumber.IncomingPhoneNumber%2Ccom.freeclimb.api.phonenumber.IncomingPhoneNumber)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/phonenumber/IncomingPhoneNumber.cs/#L199">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_op_Inequality_" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.op_Inequality*"></a>
+  <h4 id="com_freeclimb_api_phonenumber_IncomingPhoneNumber_op_Inequality_com_freeclimb_api_phonenumber_IncomingPhoneNumber_com_freeclimb_api_phonenumber_IncomingPhoneNumber_" data-uid="com.freeclimb.api.phonenumber.IncomingPhoneNumber.op_Inequality(com.freeclimb.api.phonenumber.IncomingPhoneNumber,com.freeclimb.api.phonenumber.IncomingPhoneNumber)">Inequality(IncomingPhoneNumber, IncomingPhoneNumber)</h4>
+  <div class="markdown level1 summary"><p>IncomingPhoneNumber inequality operator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(IncomingPhoneNumber a, IncomingPhoneNumber b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.phonenumber.IncomingPhoneNumber.html">IncomingPhoneNumber</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>IncomingPhoneNumber object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.phonenumber.IncomingPhoneNumber.html">IncomingPhoneNumber</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>IncomingPhoneNumber object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true if not equal otherwise false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="com.freeclimb.api.IFreeClimbCommon.html">IFreeClimbCommon</a>
+  </div>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_phonenumber_IncomingPhoneNumber.md&amp;value=---%0Auid%3A%20com.freeclimb.api.phonenumber.IncomingPhoneNumber%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/phonenumber/IncomingPhoneNumber.cs/#L21" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,2036 @@
+{
+  "homepages": [],
+  "source_base_path": "U:/csharp-sdk/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.Date.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.Date.html",
+          "hash": "lSF9YxjObAO/qtLrYj9img=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.EAccountStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.EAccountStatus.html",
+          "hash": "c2lRz4RzggiW67c5l5FdtA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.EAccountType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.EAccountType.html",
+          "hash": "izkVPpURJJTSQGHtM3plUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.EAnsweredBy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.EAnsweredBy.html",
+          "hash": "UgpyyQCDKv5y3uMvncoN2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.EBool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.EBool.html",
+          "hash": "xcUHJXxMN0+xRbIj+Z9TGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.ECallStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.ECallStatus.html",
+          "hash": "w2/PulB6kZ5QVGrpgu1+qw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.EConferenceStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.EConferenceStatus.html",
+          "hash": "tajZi4JqLrl+ZN7lZB88rA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.EDigitTermReason.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.EDigitTermReason.html",
+          "hash": "7gGLXlTJSXqLVAPMDaqRfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.EDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.EDirection.html",
+          "hash": "uxG8vypB4bqBX2IssX/JRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.EFinishOnKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.EFinishOnKey.html",
+          "hash": "ZFlId0ekj7GlmWFzSKHxNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.EGrammarType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.EGrammarType.html",
+          "hash": "U3tslu7bRS7WAkN6cLHAGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.EIfMachine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.EIfMachine.html",
+          "hash": "eSWGVK+ObZhlKDGKw16PjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.ELanguage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.ELanguage.html",
+          "hash": "UgU9GfackI58sslgoKAXwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.ELogLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.ELogLevel.html",
+          "hash": "JURE19YbiRmWgZHM1GO+BQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.EMachineType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.EMachineType.html",
+          "hash": "zZ2EwI0YuxOjJbs7/ChoxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.EMessageDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.EMessageDirection.html",
+          "hash": "70+kXr8k9mhpKMpYapDbtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.EMessageStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.EMessageStatus.html",
+          "hash": "o+yzhwa/GjjZO2qtRaxgzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.EPlayBeep.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.EPlayBeep.html",
+          "hash": "EPQTKhPxM/dCe8bM9a//Gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.ERecordTermReason.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.ERecordTermReason.html",
+          "hash": "qQYXLbWgRAHqGPhSM/DSmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.ERequestType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.ERequestType.html",
+          "hash": "gLSVFe4skzWZGKAiQ7euhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.EResults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.EResults.html",
+          "hash": "ZldcDjvCgNUD9r+r8zO9Vg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.ESpeechTermReason.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.ESpeechTermReason.html",
+          "hash": "q6sTPe1+h+X++DcQqhPShA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.FreeClimbSdkException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.FreeClimbSdkException.html",
+          "hash": "yYhyjpiL5olXJLtFqhIA4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.APIRequester.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.APIRequester.html",
+          "hash": "KJSs3ZQ6ybokPSCRSc6mow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.CommonFields.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.CommonFields.html",
+          "hash": "GhJFWQBRhWKD4090wNAn0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.FreeClimbClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.FreeClimbClient.html",
+          "hash": "Gc6Y/QuaSqEQA7yuNuG83g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.FreeClimbCommon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.FreeClimbCommon.html",
+          "hash": "X7nGsg5yqwsbVoDuk8sxSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.FreeClimbConnectionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.FreeClimbConnectionException.html",
+          "hash": "4hO56A3bvErEBHaEkKxB0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.FreeClimbDateException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.FreeClimbDateException.html",
+          "hash": "fOc6F70MIWssxwSXaWGtHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.FreeClimbError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.FreeClimbError.html",
+          "hash": "SCiIRBOw1PeDzaPb6S3u5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.FreeClimbErrorResponseException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.FreeClimbErrorResponseException.html",
+          "hash": "/+2I1A7FEl3pX2bh5A25ZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.FreeClimbException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.FreeClimbException.html",
+          "hash": "lfVugF3TE5Fxc43h4CY9AA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.FreeClimbJSONException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.FreeClimbJSONException.html",
+          "hash": "BSHzS+QVmFslxI3h013qtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.FreeClimbList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.FreeClimbList.html",
+          "hash": "M9t2SsQNZ1XCKhRcI8ag6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.IFreeClimbCommon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.IFreeClimbCommon.html",
+          "hash": "8/pjHQIO/TkEfEX0oTjEYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.account.Account.SubresourceUri.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.account.Account.SubresourceUri.html",
+          "hash": "xvr7yFQbdkwwER+xskvByw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.account.Account.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.account.Account.html",
+          "hash": "RD/8a1fXNYutS5RnAOqL3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.account.AccountOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.account.AccountOptions.html",
+          "hash": "9CZXmSTz4LQoV4kJqzng5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.account.AccountsRequester.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.account.AccountsRequester.html",
+          "hash": "7lmol7vdpwhQ+WCWaneEsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.account.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.account.html",
+          "hash": "7k5q/9YvTuAnwi6dMDtqMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.application.Application.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.application.Application.html",
+          "hash": "/BKYvisbkzvR7f/58VCGOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.application.ApplicationList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.application.ApplicationList.html",
+          "hash": "hM+ycp4xc3fXOgr2gdRQnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.application.ApplicationOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.application.ApplicationOptions.html",
+          "hash": "H/h9LxrtD481I9kq9u8WWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.application.ApplicationsRequester.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.application.ApplicationsRequester.html",
+          "hash": "xmRJTV+qxUeXtNA+bKCtPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.application.ApplicationsSearchFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.application.ApplicationsSearchFilters.html",
+          "hash": "+7Se27Aerbitaheq0FhF5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.application.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.application.html",
+          "hash": "39AZ5fhJcvzYsmqFW/vKHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.call.Call.SubresourceUri.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.call.Call.SubresourceUri.html",
+          "hash": "T46zmeaPqwrC+/621+7FaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.call.Call.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.call.Call.html",
+          "hash": "a6Qt2Rr6J6ng8lUUO8joPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.call.CallList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.call.CallList.html",
+          "hash": "m3imWi+55WXXTVCQYmWCyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.call.CallOrigOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.call.CallOrigOptions.html",
+          "hash": "0bQVeJicKjujcspTmbARQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.call.CallTermOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.call.CallTermOptions.html",
+          "hash": "ErJ0IjntvFSFRcxnWvlxTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.call.CallsRequester.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.call.CallsRequester.html",
+          "hash": "+Erpk839uuwW8hgiEgu/3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.call.CallsSearchFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.call.CallsSearchFilters.html",
+          "hash": "3T+pIq97E3XIY2p+R78KQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.call.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.call.html",
+          "hash": "cwE6LNm7rOPWzcKH82BgBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.conference.Conference.SubresourceUri.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.conference.Conference.SubresourceUri.html",
+          "hash": "t9Aqm5iZBxjtWFdwtmPiSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.conference.Conference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.conference.Conference.html",
+          "hash": "XxAiHNcom860IHloJZ8deQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.conference.ConferenceCreateOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.conference.ConferenceCreateOptions.html",
+          "hash": "JA5PYtlgJ8AYSSgdx4LXqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.conference.ConferenceList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.conference.ConferenceList.html",
+          "hash": "u4gqalh7+GUvIvjSWBcf+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.conference.ConferenceOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.conference.ConferenceOptions.html",
+          "hash": "8Y59UOZqLTRLF79ib5/bLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.conference.ConferenceSearchFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.conference.ConferenceSearchFilters.html",
+          "hash": "WsaS1XhulU6WAVKJrzDC+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.conference.ConferencesRequester.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.conference.ConferencesRequester.html",
+          "hash": "/iPud+NIGr0LoUwyTjebSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.conference.Participant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.conference.Participant.html",
+          "hash": "zxS9i080ZrdilRRk5GO1rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.conference.ParticipantList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.conference.ParticipantList.html",
+          "hash": "CfdiaEIMFZWWzoYMkXFcwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.conference.ParticipantOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.conference.ParticipantOptions.html",
+          "hash": "fCKRwE3L5Ha6rqtnvOQ8pg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.conference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.conference.html",
+          "hash": "ZXdO+OC0XiiCKqncRsHL6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.log.Log.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.log.Log.html",
+          "hash": "TcDBHa+RWHqCAIulhUm7/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.log.LogList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.log.LogList.html",
+          "hash": "kxS+q9Z9GkmVusjlavyNdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.log.LogSearchFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.log.LogSearchFilters.html",
+          "hash": "PR9RjirHsYQrZhV73AqznQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.log.LogsRequester.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.log.LogsRequester.html",
+          "hash": "n2yI9XGYoEpkWKaYMCDVjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.log.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.log.html",
+          "hash": "LCP+elntGKY4GMxBLNlyWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.message.Message.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.message.Message.html",
+          "hash": "z9tAamS1dOziQGHbr7qnzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.message.MessageList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.message.MessageList.html",
+          "hash": "vpbOoNXbn+vmvvSs6KmJIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.message.MessageOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.message.MessageOptions.html",
+          "hash": "v/RD4AY4pyVqRPnbquazmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.message.MessagesRequester.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.message.MessagesRequester.html",
+          "hash": "mql+rfzHtA6mvWqTtPzAtA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.message.MessagesSearchFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.message.MessagesSearchFilter.html",
+          "hash": "j1CcG9/Ror+d6xau2MI7oA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.message.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.message.html",
+          "hash": "3UbQyu5J1tXnXzw7OA/fWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.phonenumber.AvailablePhoneNumber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.phonenumber.AvailablePhoneNumber.html",
+          "hash": "qhC4gxwJwjD51TrWSOP7Kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.phonenumber.AvailablePhoneNumberList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.phonenumber.AvailablePhoneNumberList.html",
+          "hash": "z77dgY5pJVkpWySgolx8HQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.phonenumber.AvailablePhoneNumbersRequester.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.phonenumber.AvailablePhoneNumbersRequester.html",
+          "hash": "9Me0f97HHG9stLpMFWDw1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.phonenumber.AvailablePhoneNumbersSearchFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.phonenumber.AvailablePhoneNumbersSearchFilter.html",
+          "hash": "a4Fbzmw5oMPIPz1XStJWaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.phonenumber.CallingNumber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.phonenumber.CallingNumber.html",
+          "hash": "TpaQmhJRuNElbJ9DPQTL7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.phonenumber.CallingNumberList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.phonenumber.CallingNumberList.html",
+          "hash": "PfcfOWOTIWy1nWBS0rNl2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.phonenumber.CallingNumberOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.phonenumber.CallingNumberOptions.html",
+          "hash": "RqzSfPZNd6+7NiHSFzUNHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.phonenumber.CallingNumbersRequester.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.phonenumber.CallingNumbersRequester.html",
+          "hash": "IcYGpgQKHlArKQqi0SNeUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.phonenumber.CallingNumbersSearchFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.phonenumber.CallingNumbersSearchFilter.html",
+          "hash": "zNgrvKqsTqp5xcD+zmFpAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.phonenumber.IncomingPhoneNumber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.phonenumber.IncomingPhoneNumber.html",
+          "hash": "abRGoBZ0nocQSbU97cU8tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.phonenumber.IncomingPhoneNumberList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.phonenumber.IncomingPhoneNumberList.html",
+          "hash": "kJILtQuoF3maCQXMa6sYzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.phonenumber.IncomingPhoneNumberOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.phonenumber.IncomingPhoneNumberOptions.html",
+          "hash": "kIxf1zO51g1rJfFER9MVjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.phonenumber.IncomingPhoneNumbersRequester.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.phonenumber.IncomingPhoneNumbersRequester.html",
+          "hash": "lSbzIMUG+qeA5QLOrCxytg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.phonenumber.IncomingPhoneNumbersSearchFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.phonenumber.IncomingPhoneNumbersSearchFilter.html",
+          "hash": "HXhhFzGcOoklzfGtKwimHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.phonenumber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.phonenumber.html",
+          "hash": "yVMH+1Bd6Q3UEpOwZc/ZZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.queue.Queue.SubresourceUri.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.queue.Queue.SubresourceUri.html",
+          "hash": "aE6ypymasQUm5swQMtf1zw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.queue.Queue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.queue.Queue.html",
+          "hash": "IZyaq5Db84IX6IaHSuyo0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.queue.QueueList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.queue.QueueList.html",
+          "hash": "jXBpvhMMXMVbBiN0A8RDKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.queue.QueueMember.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.queue.QueueMember.html",
+          "hash": "hQphp477Old4F6yNqMchfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.queue.QueueMemberList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.queue.QueueMemberList.html",
+          "hash": "/C+tfuCg/cYDt/rGOQuMaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.queue.QueueMemberOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.queue.QueueMemberOptions.html",
+          "hash": "SNzAzQJ40rWKLeJtp9hYJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.queue.QueueOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.queue.QueueOptions.html",
+          "hash": "+HrwJMlpK39xKuSs3t1mvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.queue.QueuesRequester.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.queue.QueuesRequester.html",
+          "hash": "y3pFg4/bB7ZsHFOuUvAfdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.queue.QueuesSearchFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.queue.QueuesSearchFilters.html",
+          "hash": "qYyU4+sa2IAfqEUl+7g/rg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.queue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.queue.html",
+          "hash": "8nxhBZXtMnpUudVzgWJl6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.recording.Recording.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.recording.Recording.html",
+          "hash": "jcQqum4RDD8UYBp+qH9i9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.recording.RecordingList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.recording.RecordingList.html",
+          "hash": "V7cUvWSlJcbIL0jtGpR35A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.recording.RecordingsRequester.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.recording.RecordingsRequester.html",
+          "hash": "V9glmPYyd6XQP5P0oCI38w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.recording.RecordingsSearchFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.recording.RecordingsSearchFilters.html",
+          "hash": "9COqpe6Hpwfep66XzXN/1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.recording.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.recording.html",
+          "hash": "vDlpL2jTh4hsvLUotkbVjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.api.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.api.html",
+          "hash": "vPLdyD9yvV/HKn2rRCFrmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.percl.AddToConference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.percl.AddToConference.html",
+          "hash": "6Tp84d2snI7Lkpu69+AssQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.percl.CreateConference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.percl.CreateConference.html",
+          "hash": "OKCtLiR8R3OYhwOmA8DvmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.percl.Dequeue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.percl.Dequeue.html",
+          "hash": "ch7vp+2zgRSEtQOk0AS5WQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.percl.Enqueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.percl.Enqueue.html",
+          "hash": "NzGfDX3IHcoH6ZgXX5WH2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.percl.GetDigits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.percl.GetDigits.html",
+          "hash": "u36ngB7F0J2J3Y/gojXr+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.percl.GetSpeech.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.percl.GetSpeech.html",
+          "hash": "ODMkDGnQmXJwFkVT00FkSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.percl.Hangup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.percl.Hangup.html",
+          "hash": "6ILotqEnMDHsHI8NB77o2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.percl.IGetDigitsNestable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.percl.IGetDigitsNestable.html",
+          "hash": "vUBFIllnVkYwmKUGMlXBsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.percl.IGetSpeechNestable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.percl.IGetSpeechNestable.html",
+          "hash": "oRF5OdLy5s9Z3EWGgDPZUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.percl.OutDial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.percl.OutDial.html",
+          "hash": "aP9JnaU9RlQNFdNEix/TFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.percl.Pause.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.percl.Pause.html",
+          "hash": "qBw+0ofxudkEV6Pi1Ml9xQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.percl.PerCLCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.percl.PerCLCommand.html",
+          "hash": "+Wz2A/HnUed9WDbuC9/KMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.percl.PerCLScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.percl.PerCLScript.html",
+          "hash": "M8RWYPgBcZQnzHOrzn3yfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.percl.Play.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.percl.Play.html",
+          "hash": "gmP57+/9IblmS6+B+I/T3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.percl.PlayEarlyMedia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.percl.PlayEarlyMedia.html",
+          "hash": "Gz3sfyISGeck4hlJUAEwZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.percl.RecordUtterance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.percl.RecordUtterance.html",
+          "hash": "Vi/MSkalTScjvAir3wUYEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.percl.Redirect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.percl.Redirect.html",
+          "hash": "GkOb+179qk08k5nLcWVX2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.percl.RemoveFromConference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.percl.RemoveFromConference.html",
+          "hash": "a7+FdAo/m/bfDM11Z+YFoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.percl.Say.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.percl.Say.html",
+          "hash": "Zbpkpa5C26FE/t0YKWXk7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.percl.SendDigits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.percl.SendDigits.html",
+          "hash": "n1OGHs038kEtykg1RPshGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.percl.SetListen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.percl.SetListen.html",
+          "hash": "6GdnLGropzvbsLUCh4DXgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.percl.SetTalk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.percl.SetTalk.html",
+          "hash": "KyrBqwAZ4gcPT/5LC6tJUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.percl.Sms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.percl.Sms.html",
+          "hash": "t8XzldR7fSi+HbayuR2H9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.percl.StartRecordCall.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.percl.StartRecordCall.html",
+          "hash": "RvxuJdHMGpQ7WuATpk9SEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.percl.TerminateConference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.percl.TerminateConference.html",
+          "hash": "9hCUKo3jHU6hyjZ31cGuOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.percl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.percl.html",
+          "hash": "OUqOYUTGSBrxCbLGUMHodA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.webhooks.FreeClimbRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.webhooks.FreeClimbRequest.html",
+          "hash": "pH9AyDEwmK9Zx56SIX/xxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.webhooks.StatusCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.webhooks.StatusCallback.html",
+          "hash": "4AM7xVf7p5exrvO+c+Rk+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.webhooks.VoiceRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.webhooks.VoiceRequest.html",
+          "hash": "I98RDfQKaaIxOZbgXl2x4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.webhooks.application.ApplicationVoiceCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.webhooks.application.ApplicationVoiceCallback.html",
+          "hash": "VT5Kr+q7Ts6gWYG7VkE67w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.webhooks.application.MessageDelivery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.webhooks.application.MessageDelivery.html",
+          "hash": "GrMn3Sz7ZZGA3upGj8713A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.webhooks.application.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.webhooks.application.html",
+          "hash": "644i0KTpmyYwWfeTR4Dw9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.webhooks.call.CallStatusCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.webhooks.call.CallStatusCallback.html",
+          "hash": "pKE7+RDgTe7to5s/LliyMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.webhooks.call.OutDialActionCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.webhooks.call.OutDialActionCallback.html",
+          "hash": "f0JWryzUCQxp1Mn5NTFOUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.webhooks.call.OutDialIfMachineCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.webhooks.call.OutDialIfMachineCallback.html",
+          "hash": "GBm9YrIyNHdBxXIOL5+Gcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.webhooks.call.RecordingUtteranceActionCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.webhooks.call.RecordingUtteranceActionCallback.html",
+          "hash": "59KnZ6englme4sIJ6Ob+ZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.webhooks.call.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.webhooks.call.html",
+          "hash": "yzi8NkmZLdFb31xKHP8VgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.webhooks.conference.ConferenceCallControlCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.webhooks.conference.ConferenceCallControlCallback.html",
+          "hash": "7b69otmyq9I9Ej2kiuO5xg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.webhooks.conference.ConferenceCreateActionCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.webhooks.conference.ConferenceCreateActionCallback.html",
+          "hash": "r332O6rRAG5VMEC4KWg52w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.webhooks.conference.ConferenceStatusCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.webhooks.conference.ConferenceStatusCallback.html",
+          "hash": "fh5Y9EQamegXXbns08ZWag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.webhooks.conference.LeaveConferenceUrlCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.webhooks.conference.LeaveConferenceUrlCallback.html",
+          "hash": "AVz4WN+7GcoFonPY+Xfs2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.webhooks.conference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.webhooks.conference.html",
+          "hash": "+KrXd8w2QYzqXUP7bcFcMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.webhooks.message.MessageStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.webhooks.message.MessageStatus.html",
+          "hash": "e5rMiAmLLtiMwN/Dwjq9hA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.webhooks.message.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.webhooks.message.html",
+          "hash": "2jGmuNcSnl4+/U5C+/ZNlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.webhooks.percl.GetDigitsActionCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.webhooks.percl.GetDigitsActionCallback.html",
+          "hash": "+mR4xh+4knwt9604E1fvgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.webhooks.percl.GetSpeechActionCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.webhooks.percl.GetSpeechActionCallback.html",
+          "hash": "/lzlmupIJNc/GEQ+30ZvyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.webhooks.percl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.webhooks.percl.html",
+          "hash": "3J2S6/FK7fpR2OnHz57rgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.webhooks.queue.QueueActionCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.webhooks.queue.QueueActionCallback.html",
+          "hash": "B3Fpk87+0h4BbyCoCq4Neg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.webhooks.queue.QueueWaitCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.webhooks.queue.QueueWaitCallback.html",
+          "hash": "XleqPoE8Ig2ZVBshRpbJ7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.webhooks.queue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.webhooks.queue.html",
+          "hash": "uWsg7afIv3BR836TbtKNgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.webhooks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.webhooks.html",
+          "hash": "IEjMtrFtGzGjKR+1VoyGJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/com.freeclimb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/com.freeclimb.html",
+          "hash": "VZVEOHm+4ecC7X465XRyMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "NXKuxiP9Atnm7CSR/HHA6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "13e7u39VhgnoI9XD8U8Law=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "U9RYignH5S+cxSlKQgOYJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "97BKDOBIE474PNAoqrENWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "1Xdjw8Ib7j95/TiJDj+CFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 159,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

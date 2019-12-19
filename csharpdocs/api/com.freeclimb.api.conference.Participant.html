@@ -1,0 +1,759 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Participant
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Participant
+   ">
+    <meta name="generator" content="docfx 2.45.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="com.freeclimb.api.conference.Participant">
+  
+  
+  <h1 id="com_freeclimb_api_conference_Participant" data-uid="com.freeclimb.api.conference.Participant" class="text-break">Class Participant
+  </h1>
+  <div class="markdown level0 summary"><p>This class represents a FreeClimb Participant instance. Participant objects are created
+by the SDK whenever a participant instance would be returned by the API; these
+primarily come from ConferencesRequester inside a FreeClimbClient instance.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="com.freeclimb.api.FreeClimbCommon.html">FreeClimbCommon</a></div>
+    <div class="level2"><span class="xref">Participant</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="com.freeclimb.api.IFreeClimbCommon.html">IFreeClimbCommon</a></div>
+    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="com.freeclimb.api.FreeClimbCommon.html">FreeClimbCommon</a>&gt;</div>
+    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="com.freeclimb.api.conference.Participant.html">Participant</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="com.freeclimb.api.FreeClimbCommon.html#com_freeclimb_api_FreeClimbCommon_getUri">FreeClimbCommon.getUri</a>
+    </div>
+    <div>
+      <a class="xref" href="com.freeclimb.api.FreeClimbCommon.html#com_freeclimb_api_FreeClimbCommon_getDateCreated">FreeClimbCommon.getDateCreated</a>
+    </div>
+    <div>
+      <a class="xref" href="com.freeclimb.api.FreeClimbCommon.html#com_freeclimb_api_FreeClimbCommon_getDateUpdated">FreeClimbCommon.getDateUpdated</a>
+    </div>
+    <div>
+      <a class="xref" href="com.freeclimb.api.FreeClimbCommon.html#com_freeclimb_api_FreeClimbCommon_getRevision">FreeClimbCommon.getRevision</a>
+    </div>
+    <div>
+      <a class="xref" href="com.freeclimb.api.FreeClimbCommon.html#com_freeclimb_api_FreeClimbCommon_Equal_com_freeclimb_api_FreeClimbCommon_com_freeclimb_api_FreeClimbCommon_">FreeClimbCommon.Equal(FreeClimbCommon, FreeClimbCommon)</a>
+    </div>
+    <div>
+      <a class="xref" href="com.freeclimb.api.FreeClimbCommon.html#com_freeclimb_api_FreeClimbCommon_Equals_com_freeclimb_api_FreeClimbCommon_">FreeClimbCommon.Equals(FreeClimbCommon)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="com.freeclimb.api.conference.html">com.freeclimb.api.conference</a></h6>
+  <h6><strong>Assembly</strong>: freeclimb-cs-sdk.dll</h6>
+  <h5 id="com_freeclimb_api_conference_Participant_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonObject]
+public sealed class Participant : FreeClimbCommon, IFreeClimbCommon, IEquatable&lt;FreeClimbCommon&gt;, IEquatable&lt;Participant&gt;</code></pre>
+  </div>
+  <h5 id="com_freeclimb_api_conference_Participant_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Participant are immutable and intended only to be used to read information
+returned from the API in a language accessible way.</p>
+</div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_conference_Participant_getAccountId.md&amp;value=---%0Auid%3A%20com.freeclimb.api.conference.Participant.getAccountId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/conference/Participant.cs/#L67">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_conference_Participant_getAccountId_" data-uid="com.freeclimb.api.conference.Participant.getAccountId*"></a>
+  <h4 id="com_freeclimb_api_conference_Participant_getAccountId" data-uid="com.freeclimb.api.conference.Participant.getAccountId">getAccountId</h4>
+  <div class="markdown level1 summary"><p>Retrieve the accountId for this conference from the object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string getAccountId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The accountId for this conference.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_conference_Participant_getCallId.md&amp;value=---%0Auid%3A%20com.freeclimb.api.conference.Participant.getCallId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/conference/Participant.cs/#L73">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_conference_Participant_getCallId_" data-uid="com.freeclimb.api.conference.Participant.getCallId*"></a>
+  <h4 id="com_freeclimb_api_conference_Participant_getCallId" data-uid="com.freeclimb.api.conference.Participant.getCallId">getCallId</h4>
+  <div class="markdown level1 summary"><p>Retrieve the callId for this conference from the object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string getCallId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The callId for this conference.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_conference_Participant_getConferenceId.md&amp;value=---%0Auid%3A%20com.freeclimb.api.conference.Participant.getConferenceId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/conference/Participant.cs/#L61">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_conference_Participant_getConferenceId_" data-uid="com.freeclimb.api.conference.Participant.getConferenceId*"></a>
+  <h4 id="com_freeclimb_api_conference_Participant_getConferenceId" data-uid="com.freeclimb.api.conference.Participant.getConferenceId">getConferenceId</h4>
+  <div class="markdown level1 summary"><p>Retrieve the conferenceId for this conference from the object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string getConferenceId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The conferenceId for this conference.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_conference_Participant_getListen.md&amp;value=---%0Auid%3A%20com.freeclimb.api.conference.Participant.getListen%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/conference/Participant.cs/#L87">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_conference_Participant_getListen_" data-uid="com.freeclimb.api.conference.Participant.getListen*"></a>
+  <h4 id="com_freeclimb_api_conference_Participant_getListen" data-uid="com.freeclimb.api.conference.Participant.getListen">getListen</h4>
+  <div class="markdown level1 summary"><p>Retrieve the listen for this conference from the object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EBool getListen { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.EBool.html">EBool</a></td>
+        <td><p>The listen for this conference.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_conference_Participant_getStartConfOnEnter.md&amp;value=---%0Auid%3A%20com.freeclimb.api.conference.Participant.getStartConfOnEnter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/conference/Participant.cs/#L94">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_conference_Participant_getStartConfOnEnter_" data-uid="com.freeclimb.api.conference.Participant.getStartConfOnEnter*"></a>
+  <h4 id="com_freeclimb_api_conference_Participant_getStartConfOnEnter" data-uid="com.freeclimb.api.conference.Participant.getStartConfOnEnter">getStartConfOnEnter</h4>
+  <div class="markdown level1 summary"><p>Retrieve the startConfOnEnter for this conference from the object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EBool getStartConfOnEnter { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.EBool.html">EBool</a></td>
+        <td><p>The startConfOnEnter for this conference.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_conference_Participant_getTalk.md&amp;value=---%0Auid%3A%20com.freeclimb.api.conference.Participant.getTalk%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/conference/Participant.cs/#L80">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_conference_Participant_getTalk_" data-uid="com.freeclimb.api.conference.Participant.getTalk*"></a>
+  <h4 id="com_freeclimb_api_conference_Participant_getTalk" data-uid="com.freeclimb.api.conference.Participant.getTalk">getTalk</h4>
+  <div class="markdown level1 summary"><p>Retrieve the talk for this conference from the object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EBool getTalk { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.EBool.html">EBool</a></td>
+        <td><p>The talk for this conference.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_conference_Participant_Equal_com_freeclimb_api_conference_Participant_com_freeclimb_api_conference_Participant_.md&amp;value=---%0Auid%3A%20com.freeclimb.api.conference.Participant.Equal(com.freeclimb.api.conference.Participant%2Ccom.freeclimb.api.conference.Participant)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/conference/Participant.cs/#L182">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_conference_Participant_Equal_" data-uid="com.freeclimb.api.conference.Participant.Equal*"></a>
+  <h4 id="com_freeclimb_api_conference_Participant_Equal_com_freeclimb_api_conference_Participant_com_freeclimb_api_conference_Participant_" data-uid="com.freeclimb.api.conference.Participant.Equal(com.freeclimb.api.conference.Participant,com.freeclimb.api.conference.Participant)">Equal(Participant, Participant)</h4>
+  <div class="markdown level1 summary"><p>Helper method to deep compare two Participant instances.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Equal(Participant a, Participant b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.conference.Participant.html">Participant</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Participant instance one.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.conference.Participant.html">Participant</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Participant instance two.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True is a == b, otherwise false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_conference_Participant_Equals_com_freeclimb_api_conference_Participant_.md&amp;value=---%0Auid%3A%20com.freeclimb.api.conference.Participant.Equals(com.freeclimb.api.conference.Participant)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/conference/Participant.cs/#L122">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_conference_Participant_Equals_" data-uid="com.freeclimb.api.conference.Participant.Equals*"></a>
+  <h4 id="com_freeclimb_api_conference_Participant_Equals_com_freeclimb_api_conference_Participant_" data-uid="com.freeclimb.api.conference.Participant.Equals(com.freeclimb.api.conference.Participant)">Equals(Participant)</h4>
+  <div class="markdown level1 summary"><p>Compares the current instance with another object of the same type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(Participant other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.conference.Participant.html">Participant</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>Participant object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true if the current object is equal to the other parameter; otherwise, false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_conference_Participant_Equals_System_Object_.md&amp;value=---%0Auid%3A%20com.freeclimb.api.conference.Participant.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/conference/Participant.cs/#L160">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_conference_Participant_Equals_" data-uid="com.freeclimb.api.conference.Participant.Equals*"></a>
+  <h4 id="com_freeclimb_api_conference_Participant_Equals_System_Object_" data-uid="com.freeclimb.api.conference.Participant.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Compares the current instance with another object of the same type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>Object of type Participant.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true if the current object is equal to the other parameter; otherwise, false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="com.freeclimb.api.FreeClimbCommon.html#com_freeclimb_api_FreeClimbCommon_Equals_System_Object_">FreeClimbCommon.Equals(Object)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_conference_Participant_fromJson_System_String_.md&amp;value=---%0Auid%3A%20com.freeclimb.api.conference.Participant.fromJson(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/conference/Participant.cs/#L45">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_conference_Participant_fromJson_" data-uid="com.freeclimb.api.conference.Participant.fromJson*"></a>
+  <h4 id="com_freeclimb_api_conference_Participant_fromJson_System_String_" data-uid="com.freeclimb.api.conference.Participant.fromJson(System.String)">fromJson(String)</h4>
+  <div class="markdown level1 summary"><p>Helper method to build a Participant object from the JSON string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Participant fromJson(string rawJson)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">rawJson</span></td>
+        <td><p>A JSON string representing a Participant instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.conference.Participant.html">Participant</a></td>
+        <td><p>A Participant object equivalent to the JSON string passed in.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.FreeClimbJSONException.html">FreeClimbJSONException</a></td>
+        <td><p>Thrown upon deserialize failure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_conference_Participant_GetHashCode.md&amp;value=---%0Auid%3A%20com.freeclimb.api.conference.Participant.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/conference/Participant.cs/#L101">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_conference_Participant_GetHashCode_" data-uid="com.freeclimb.api.conference.Participant.GetHashCode*"></a>
+  <h4 id="com_freeclimb_api_conference_Participant_GetHashCode" data-uid="com.freeclimb.api.conference.Participant.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Serves as the default hash function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>A hash code for the current object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="com.freeclimb.api.FreeClimbCommon.html#com_freeclimb_api_FreeClimbCommon_GetHashCode">FreeClimbCommon.GetHashCode()</a></div>
+  <h3 id="operators">Operators
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_conference_Participant_op_Equality_com_freeclimb_api_conference_Participant_com_freeclimb_api_conference_Participant_.md&amp;value=---%0Auid%3A%20com.freeclimb.api.conference.Participant.op_Equality(com.freeclimb.api.conference.Participant%2Ccom.freeclimb.api.conference.Participant)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/conference/Participant.cs/#L138">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_conference_Participant_op_Equality_" data-uid="com.freeclimb.api.conference.Participant.op_Equality*"></a>
+  <h4 id="com_freeclimb_api_conference_Participant_op_Equality_com_freeclimb_api_conference_Participant_com_freeclimb_api_conference_Participant_" data-uid="com.freeclimb.api.conference.Participant.op_Equality(com.freeclimb.api.conference.Participant,com.freeclimb.api.conference.Participant)">Equality(Participant, Participant)</h4>
+  <div class="markdown level1 summary"><p>Participant equality operator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(Participant a, Participant b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.conference.Participant.html">Participant</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Participant object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.conference.Participant.html">Participant</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Participant object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true if equal otherwise false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_conference_Participant_op_Inequality_com_freeclimb_api_conference_Participant_com_freeclimb_api_conference_Participant_.md&amp;value=---%0Auid%3A%20com.freeclimb.api.conference.Participant.op_Inequality(com.freeclimb.api.conference.Participant%2Ccom.freeclimb.api.conference.Participant)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/conference/Participant.cs/#L149">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_conference_Participant_op_Inequality_" data-uid="com.freeclimb.api.conference.Participant.op_Inequality*"></a>
+  <h4 id="com_freeclimb_api_conference_Participant_op_Inequality_com_freeclimb_api_conference_Participant_com_freeclimb_api_conference_Participant_" data-uid="com.freeclimb.api.conference.Participant.op_Inequality(com.freeclimb.api.conference.Participant,com.freeclimb.api.conference.Participant)">Inequality(Participant, Participant)</h4>
+  <div class="markdown level1 summary"><p>Participant inequality operator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(Participant a, Participant b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.conference.Participant.html">Participant</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Participant object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.conference.Participant.html">Participant</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Participant object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true if not equal otherwise false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="com.freeclimb.api.IFreeClimbCommon.html">IFreeClimbCommon</a>
+  </div>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_conference_Participant.md&amp;value=---%0Auid%3A%20com.freeclimb.api.conference.Participant%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/conference/Participant.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,599 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ApplicationsRequester
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ApplicationsRequester
+   ">
+    <meta name="generator" content="docfx 2.45.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="com.freeclimb.api.application.ApplicationsRequester">
+  
+  
+  <h1 id="com_freeclimb_api_application_ApplicationsRequester" data-uid="com.freeclimb.api.application.ApplicationsRequester" class="text-break">Class ApplicationsRequester
+  </h1>
+  <div class="markdown level0 summary"><p>This class represents the set of wrappers around the FreeClimb Application API.
+It provides methods to handle all the operations supported by the FreeClimb
+Application API.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="com.freeclimb.api.APIRequester.html">APIRequester</a></div>
+    <div class="level2"><span class="xref">ApplicationsRequester</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="com.freeclimb.api.APIRequester.html#com_freeclimb_api_APIRequester_FREECLIMB_URL">APIRequester.FREECLIMB_URL</a>
+    </div>
+    <div>
+      <a class="xref" href="com.freeclimb.api.APIRequester.html#com_freeclimb_api_APIRequester_getAccountId">APIRequester.getAccountId</a>
+    </div>
+    <div>
+      <a class="xref" href="com.freeclimb.api.APIRequester.html#com_freeclimb_api_APIRequester_getAuthToken">APIRequester.getAuthToken</a>
+    </div>
+    <div>
+      <a class="xref" href="com.freeclimb.api.APIRequester.html#com_freeclimb_api_APIRequester_GetFreeClimbUrl">APIRequester.GetFreeClimbUrl</a>
+    </div>
+    <div>
+      <a class="xref" href="com.freeclimb.api.APIRequester.html#com_freeclimb_api_APIRequester_SetFreeClimbUrl_System_String_">APIRequester.SetFreeClimbUrl(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="com.freeclimb.api.APIRequester.html#com_freeclimb_api_APIRequester_GET_System_String_">APIRequester.GET(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="com.freeclimb.api.APIRequester.html#com_freeclimb_api_APIRequester_GET_System_String_System_Collections_Generic_IDictionary_System_String_System_String__">APIRequester.GET(String, IDictionary&lt;String, String&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="com.freeclimb.api.APIRequester.html#com_freeclimb_api_APIRequester_GETStream_System_String_">APIRequester.GETStream(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="com.freeclimb.api.APIRequester.html#com_freeclimb_api_APIRequester_GETStream_System_String_System_Collections_Generic_IDictionary_System_String_System_String__">APIRequester.GETStream(String, IDictionary&lt;String, String&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="com.freeclimb.api.APIRequester.html#com_freeclimb_api_APIRequester_POST_System_String_System_String_">APIRequester.POST(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="com.freeclimb.api.APIRequester.html#com_freeclimb_api_APIRequester_DELETE_System_String_">APIRequester.DELETE(String)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="com.freeclimb.api.application.html">com.freeclimb.api.application</a></h6>
+  <h6><strong>Assembly</strong>: freeclimb-cs-sdk.dll</h6>
+  <h5 id="com_freeclimb_api_application_ApplicationsRequester_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ApplicationsRequester : APIRequester</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_application_ApplicationsRequester__ctor_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20com.freeclimb.api.application.ApplicationsRequester.%23ctor(System.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/application/ApplicationsRequester.cs/#L26">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_application_ApplicationsRequester__ctor_" data-uid="com.freeclimb.api.application.ApplicationsRequester.#ctor*"></a>
+  <h4 id="com_freeclimb_api_application_ApplicationsRequester__ctor_System_String_System_String_System_String_" data-uid="com.freeclimb.api.application.ApplicationsRequester.#ctor(System.String,System.String,System.String)">ApplicationsRequester(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Creates an ApplicationsRequester. For most SDK users ApplicationsRequester will be
+created automatically by the FreeClimbClient but is available for more
+users who only require the features in this specific requester and not
+the rest of the features of the FreeClimbClient.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ApplicationsRequester(string credAccountId, string credAuthToken, string accountId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">credAccountId</span></td>
+        <td><p>The accountId to use as authentication credentials in the HTTP Basic Auth header for requests made by this requester.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">credAuthToken</span></td>
+        <td><p>The authToken to use as authentication credentials in the HTTP Basic Auth header for requests made by this requester.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">accountId</span></td>
+        <td><p>The accountId to act as. This can be the same as the credAccountId or the accountId of a subaccount of the credAccountId.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_application_ApplicationsRequester_getPath.md&amp;value=---%0Auid%3A%20com.freeclimb.api.application.ApplicationsRequester.getPath%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/application/ApplicationsRequester.cs/#L35">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_application_ApplicationsRequester_getPath_" data-uid="com.freeclimb.api.application.ApplicationsRequester.getPath*"></a>
+  <h4 id="com_freeclimb_api_application_ApplicationsRequester_getPath" data-uid="com.freeclimb.api.application.ApplicationsRequester.getPath">getPath</h4>
+  <div class="markdown level1 summary"><p>Retrieve  path object value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string getPath { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The base path used for the FreeClimb API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_application_ApplicationsRequester_create_com_freeclimb_api_application_ApplicationOptions_.md&amp;value=---%0Auid%3A%20com.freeclimb.api.application.ApplicationsRequester.create(com.freeclimb.api.application.ApplicationOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/application/ApplicationsRequester.cs/#L86">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_application_ApplicationsRequester_create_" data-uid="com.freeclimb.api.application.ApplicationsRequester.create*"></a>
+  <h4 id="com_freeclimb_api_application_ApplicationsRequester_create_com_freeclimb_api_application_ApplicationOptions_" data-uid="com.freeclimb.api.application.ApplicationsRequester.create(com.freeclimb.api.application.ApplicationOptions)">create(ApplicationOptions)</h4>
+  <div class="markdown level1 summary"><p>Create a new application through the FreeClimb API</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Application create(ApplicationOptions options = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.application.ApplicationOptions.html">ApplicationOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Optional ApplicationOptions instance to be used when creating an application.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.application.Application.html">Application</a></td>
+        <td><p>An Application object returned by FreeClimb that represents the application that was created.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.FreeClimbException.html">FreeClimbException</a></td>
+        <td><p>Thrown upon failed request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_application_ApplicationsRequester_delete_System_String_.md&amp;value=---%0Auid%3A%20com.freeclimb.api.application.ApplicationsRequester.delete(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/application/ApplicationsRequester.cs/#L123">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_application_ApplicationsRequester_delete_" data-uid="com.freeclimb.api.application.ApplicationsRequester.delete*"></a>
+  <h4 id="com_freeclimb_api_application_ApplicationsRequester_delete_System_String_" data-uid="com.freeclimb.api.application.ApplicationsRequester.delete(System.String)">delete(String)</h4>
+  <div class="markdown level1 summary"><p>Delete a FreeClimb application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void delete(string applicationId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">applicationId</span></td>
+        <td><p>The applicationId of the target application.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.FreeClimbException.html">FreeClimbException</a></td>
+        <td><p>Thrown upon failed request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_application_ApplicationsRequester_get_com_freeclimb_api_application_ApplicationsSearchFilters_.md&amp;value=---%0Auid%3A%20com.freeclimb.api.application.ApplicationsRequester.get(com.freeclimb.api.application.ApplicationsSearchFilters)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/application/ApplicationsRequester.cs/#L65">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_application_ApplicationsRequester_get_" data-uid="com.freeclimb.api.application.ApplicationsRequester.get*"></a>
+  <h4 id="com_freeclimb_api_application_ApplicationsRequester_get_com_freeclimb_api_application_ApplicationsSearchFilters_" data-uid="com.freeclimb.api.application.ApplicationsRequester.get(com.freeclimb.api.application.ApplicationsSearchFilters)">get(ApplicationsSearchFilters)</h4>
+  <div class="markdown level1 summary"><p>Retrieve a list of applications from FreeClimb.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ApplicationList get(ApplicationsSearchFilters filters = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.application.ApplicationsSearchFilters.html">ApplicationsSearchFilters</a></td>
+        <td><span class="parametername">filters</span></td>
+        <td><p>Optional ApplicationsSearchFilters instance to filter list of applications.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.application.ApplicationList.html">ApplicationList</a></td>
+        <td><p>An in-language representation of FreeClimb's paginated list response.This will be a paginated list
+of application instances as returned by the FreeClimb API.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.FreeClimbException.html">FreeClimbException</a></td>
+        <td><p>Thrown upon failed request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_application_ApplicationsRequester_get_System_String_.md&amp;value=---%0Auid%3A%20com.freeclimb.api.application.ApplicationsRequester.get(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/application/ApplicationsRequester.cs/#L43">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_application_ApplicationsRequester_get_" data-uid="com.freeclimb.api.application.ApplicationsRequester.get*"></a>
+  <h4 id="com_freeclimb_api_application_ApplicationsRequester_get_System_String_" data-uid="com.freeclimb.api.application.ApplicationsRequester.get(System.String)">get(String)</h4>
+  <div class="markdown level1 summary"><p>Retrieve a single application from FreeClimb.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Application get(string appId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">appId</span></td>
+        <td><p>The applicationId of the target application.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.application.Application.html">Application</a></td>
+        <td><p>The application matching the appId provided.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.FreeClimbException.html">FreeClimbException</a></td>
+        <td><p>Thrown upon failed request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_application_ApplicationsRequester_update_System_String_com_freeclimb_api_application_ApplicationOptions_.md&amp;value=---%0Auid%3A%20com.freeclimb.api.application.ApplicationsRequester.update(System.String%2Ccom.freeclimb.api.application.ApplicationOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/application/ApplicationsRequester.cs/#L106">View Source</a>
+  </span>
+  <a id="com_freeclimb_api_application_ApplicationsRequester_update_" data-uid="com.freeclimb.api.application.ApplicationsRequester.update*"></a>
+  <h4 id="com_freeclimb_api_application_ApplicationsRequester_update_System_String_com_freeclimb_api_application_ApplicationOptions_" data-uid="com.freeclimb.api.application.ApplicationsRequester.update(System.String,com.freeclimb.api.application.ApplicationOptions)">update(String, ApplicationOptions)</h4>
+  <div class="markdown level1 summary"><p>Update a single application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Application update(string applicationId, ApplicationOptions options = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">applicationId</span></td>
+        <td><p>The applicationId of the target application.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.application.ApplicationOptions.html">ApplicationOptions</a></td>
+        <td><span class="parametername">options</span></td>
+        <td><p>Optional ApplicationOptions instance to be used when updating an application.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.application.Application.html">Application</a></td>
+        <td><p>The updated application matching the applicationId provided.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="com.freeclimb.api.FreeClimbException.html">FreeClimbException</a></td>
+        <td><p>Thrown upon failed request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/FreeClimbAPI/csharp-sdk/new/gh-pages/apiSpec/new?filename=com_freeclimb_api_application_ApplicationsRequester.md&amp;value=---%0Auid%3A%20com.freeclimb.api.application.ApplicationsRequester%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/FreeClimbAPI/csharp-sdk/blob/gh-pages/freeclimb-cs-sdk/api/application/ApplicationsRequester.cs/#L14" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

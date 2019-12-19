@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace com.freeclimb.api
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace com.freeclimb.api
+   ">
+    <meta name="generator" content="docfx 2.45.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="com.freeclimb.api">
+  
+  <h1 id="com_freeclimb_api" data-uid="com.freeclimb.api" class="text-break">Namespace com.freeclimb.api
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="com.freeclimb.api.APIRequester.html">APIRequester</a></h4>
+      <section><p>The APIRequester is the base class for various *Requestor classes which
+each wrap a portion of the FreeClimb API. This class abstracts away the
+messiness that can be directly interacting with the API over HTTP to reduce
+code duplication in these child Requesters and ease their development.</p>
+</section>
+      <h4><a class="xref" href="com.freeclimb.api.CommonFields.html">CommonFields</a></h4>
+      <section><p>fields that are used across many different API request message bodies.</p>
+</section>
+      <h4><a class="xref" href="com.freeclimb.api.FreeClimbClient.html">FreeClimbClient</a></h4>
+      <section><p>The FreeClimbClient is the main way within the SDK to interact with the
+FreeClimb API. After creating a FreeClimbClient the user can use any of it's many
+APIRequesters to make requests to the API.</p>
+</section>
+      <h4><a class="xref" href="com.freeclimb.api.FreeClimbCommon.html">FreeClimbCommon</a></h4>
+      <section><p>FreeClimbCommon is the base class from which all classes that are built to
+represent objects returned from the FreeClimb API are built upon. A user
+of the SDK should never directly interact with a FreeClimbCommon object.</p>
+</section>
+      <h4><a class="xref" href="com.freeclimb.api.FreeClimbConnectionException.html">FreeClimbConnectionException</a></h4>
+      <section><p>This exception is thrown when the SDK runs into problems with establishing a
+connection with the FreeClimb API.</p>
+</section>
+      <h4><a class="xref" href="com.freeclimb.api.FreeClimbDateException.html">FreeClimbDateException</a></h4>
+      <section><p>This exception is thrown when the SDK runs into problems parsing a date string.</p>
+</section>
+      <h4><a class="xref" href="com.freeclimb.api.FreeClimbError.html">FreeClimbError</a></h4>
+      <section><p>The FreeClimbError represents the error messages that the FreeClimb API often replies with.</p>
+</section>
+      <h4><a class="xref" href="com.freeclimb.api.FreeClimbErrorResponseException.html">FreeClimbErrorResponseException</a></h4>
+      <section><p>This exception is thrown when the FreeClimb API responds with and HTTP error code to some user request.</p>
+</section>
+      <h4><a class="xref" href="com.freeclimb.api.FreeClimbException.html">FreeClimbException</a></h4>
+      <section><p>Base FreeClimb exception class off of which all other exceptions in the SDK are based.</p>
+</section>
+      <h4><a class="xref" href="com.freeclimb.api.FreeClimbJSONException.html">FreeClimbJSONException</a></h4>
+      <section><p>Raised when there is a problem interpretting JSON or converting an object to JSON.</p>
+</section>
+      <h4><a class="xref" href="com.freeclimb.api.FreeClimbList.html">FreeClimbList</a></h4>
+      <section><p>Base class for representing a list of resources returned by the FreeClimb
+API. Resources are kept in an ArrayList which the user is given limited
+access to. Subclasses for each type of resource that can be returned in
+FreeClimb API's paginated lists should be made to wrap around this.</p>
+</section>
+    <h3 id="interfaces">Interfaces
+  </h3>
+      <h4><a class="xref" href="com.freeclimb.api.IFreeClimbCommon.html">IFreeClimbCommon</a></h4>
+      <section><p>Generic FreeClimbCommon interface</p>
+</section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
